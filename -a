@@ -1,0 +1,40 @@
+class Keys():
+	
+	def __init__(self):
+		self.bit40 = "BR1KP"
+		self.bit56 = "02WWhvg"
+		self.bit64 = "ePo5uViy"
+		self.bit112 = "CuGDWPu1qVK1A6"
+		self.bit128 = "G0BVHxuWJYReaw2m"
+		self.bit168 = "bXQW4fnFWe7IWY0rckR4l"
+		self.bit192 = "qu1oi0vuH4NR4ZdtrVrjIig9"
+		self.bit256 = "yHQgV2ct46GecjbRRhpqtN3RAq0UX5xV"
+		self.IV128 = "5C2D3FB2C8739"
+		self.data16 = "dannyisthebest!!"
+
+	def get_40bit(self):
+		return self.bit40
+
+	def get_56bit(self):
+		return self.bit56
+
+	def get_64bit(self):
+		return self.bit64
+	
+	def get_112bit(self):
+		return self.bit112
+	
+	def get_128bit(self):
+		return self.bit128
+
+	def get_168bit(self):
+		return self.bit168
+
+	def get_192bit(self):
+		return self.bit192
+
+	def get_IV128(self):
+		return self.IV128
+
+	def get_data16(self):
+		return self.data16 
